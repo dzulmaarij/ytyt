@@ -23,7 +23,7 @@ A bot that uses the YouTube API to comment on newly uploaded videos.
 
 ## Installation and how to use
 
-Video tutorial: https://youtu.be/8zPepIDOgYk
+Video tutorial: https://youtu.be/0X6-vyLJ7M0
 
 If it just says scraping, make sure to enable the YouTube Data V3 API!. If you have already done that, make sure that the gmail you are using has an actual YouTube channel (required).
 
