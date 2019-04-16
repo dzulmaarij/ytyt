@@ -96,7 +96,7 @@ def comment_threads_insert(client, properties, **kwargs):
   return print_response(response)
 
 def scrape(keyword):
-    url = 'https://www.youtube.com/results?q={}&sp=CAISAggBUBQ%253D'.format(keyword)
+    url = 'https://www.youtube.com/watch?v=ScI8CCwVK5s'.format(keyword)
     source_code = requests.get(url)
     plain_text = source_code.text
     soup = BeautifulSoup(plain_text, 'html.parser')
@@ -141,7 +141,7 @@ while x < 20:
                         rand = random.choice(foo)
 
                         comment_threads_insert(client,
-                        {'snippet.channelId': 'UCNlM-pgjmd0NNE5I6MzlEGg',
+                        {'snippet.channelId': 'UCt7EK4mvcVYScOMtyoYyKhA',
                          'snippet.videoId': url,
                          'snippet.topLevelComment.snippet.textOriginal': rand},
                         part='snippet')
